@@ -19,8 +19,8 @@ npm install i18nc-key-end
 var i18nc = require('i18nc');
 require('i18nc-key-end')(i18nc);
 
-i18nc('var str="<span> 中文 词典 </span>"', {pluginEnabled: {keyTrim: true}});
-console.log(i18nc.code);	// var str='<span> '+I18N('中文 词典')+' </span>';
+i18nc('var str="你好！需要帮忙吗？"', {pluginEnabled: {keyEnd: true}});
+console.log(i18nc.code);	// var str=I18N('你好！')+I18N('需要帮忙吗？');
 ```
 
 
