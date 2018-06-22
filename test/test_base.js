@@ -5,7 +5,7 @@ var i18nc	= require('i18nc');
 
 require('../')(i18nc);
 
-describe('#keytrim', function()
+describe('#keyEnd', function()
 {
 	function txt2code(val)
 	{

@@ -9,8 +9,9 @@ I18NC-KEY-END
 [![NPM License][license-image]][npm-url]
 
 # Install
+
 ```
-npm install i18nc-key-end
+npm install i18nc i18nc-key-end --save
 ```
 
 # Useage
@@ -19,8 +20,8 @@ npm install i18nc-key-end
 var i18nc = require('i18nc');
 require('i18nc-key-end')(i18nc);
 
-i18nc('var str="你好！需要帮忙吗？"', {pluginEnabled: {keyEnd: true}});
-console.log(i18nc.code);	// var str=I18N('你好！')+I18N('需要帮忙吗？');
+var info = i18nc('var str="你好！需要帮忙吗？"', {pluginEnabled: {keyEnd: true}});
+console.log(info.code);	// var str=I18N('你好！')+I18N('需要帮忙吗？');
 ```
 
 
