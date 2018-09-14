@@ -1,5 +1,5 @@
 I18NC-KEY-END
-==================
+=============
 
 
 [![NPM Version][npm-image]][npm-url]
@@ -21,7 +21,7 @@ var i18nc = require('i18nc');
 require('i18nc-key-end')(i18nc);
 
 var info = i18nc('var str="你好！需要帮忙吗？"', {pluginEnabled: {keyEnd: true}});
-console.log(info.code);	// var str=I18N('你好！')+I18N('需要帮忙吗？');
+console.log(info.code);  // var str=I18N('你好！')+I18N('需要帮忙吗？');
 ```
 
 

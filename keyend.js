@@ -20,7 +20,8 @@ exports = module.exports = function(i18nc)
 			}
 		});
 
-		settings.endSymbols = '.!?;。！？；';
+		// 移除“.”，防止域名/序号等字符被截断
+		settings.endSymbols = '!?;。！？；';
 		enabled.keyEnd = false;
 	});
 };

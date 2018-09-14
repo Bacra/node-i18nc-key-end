@@ -1,6 +1,6 @@
 {
   "name": "i18nc-key-end",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "TranslateWord End for I18N",
   "main": "keyend.js",
   "scripts": {
@@ -11,16 +11,16 @@
     "test-travis": "istanbul cover _mocha --report lcovonly -- test/test_* --reporter dot"
   },
   "dependencies": {
-    "debug": "^2.6.9"
+    "debug": "^4.0.1"
   },
   "devDependencies": {
-    "cross-env": "^2.0.0",
-    "eslint": "^4.19.1",
-    "eslint-config-brcjs": "^0.1.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.5.0",
+    "eslint-config-brcjs": "^0.2.0",
     "expect.js": "^0.3.1",
-    "i18nc": "^4.5.0",
+    "i18nc": "^4.6.0",
     "istanbul": "^0.4.5",
-    "mocha": "^3.5.3"
+    "mocha": "^5.2.0"
   },
   "repository": {
     "type": "git",
